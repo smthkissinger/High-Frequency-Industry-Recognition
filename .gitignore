@@ -1,9 +1,8 @@
 *.idea
 *.xml
 /runs
-word2vec/Skip_Gram_HS/__pycache__/
 *.jpg
 *.ckpt
-Text-Classification-pytorch/THUCNews/log/*
+THUCNews/log/*
 *.pyc
 *.bin
