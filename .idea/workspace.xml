@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8211ba48-2ed2-41fd-b283-dd456841fb4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data/class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data/dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data/embedding_SougouNews.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data/embedding_Tencent.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data/vocab.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky/class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky/dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky/vocab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky/vocab.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/.~all_test_12.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_11.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_11_1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_11_2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_11_3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_11_4.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_11_5.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_11_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_11_7.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/all_test_12.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/vocab_12.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_11/vocab_13.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_2/all.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_2/all_test_2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_2/class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_2/dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_2/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_2/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_2/vocab.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/all_test_3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/all_test_3_1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/all_test_3_1_result.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/all_test_4.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/all_test_4_result.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/all_test_5.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/all_test_5_result.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/dev_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/embedding_SougouNews.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/test_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/train_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_3/vocab.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_6/all_test_9_1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_6/check_model_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_6/class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_6/dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_6/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/data_witsky_6/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-18_19.18/events.out.tfevents.1634555928.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-25_09.03/events.out.tfevents.1635123821.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-25_09.13/events.out.tfevents.1635124395.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-25_14.28/events.out.tfevents.1635143332.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-25_15.07/events.out.tfevents.1635145633.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-26_13.55/events.out.tfevents.1635227734.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-26_20.13/events.out.tfevents.1635250387.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-26_20.13/events.out.tfevents.1635250427.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-26_20.16/events.out.tfevents.1635250588.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-26_20.18/events.out.tfevents.1635250693.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-26_20.18/events.out.tfevents.1635250713.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-26_20.19/events.out.tfevents.1635250741.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-27_09.01/events.out.tfevents.1635296477.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-27_09.01/events.out.tfevents.1635296501.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-27_09.19/events.out.tfevents.1635297541.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-27_09.19/events.out.tfevents.1635297570.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/log/TextCNN/10-28_20.12/events.out.tfevents.1635423126.zhuxinquandeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/saved_dict/TextCNN_witsky_10.ckpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/saved_dict/TextCNN_witsky_11.ckpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/saved_dict/TextCNN_witsky_12.ckpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/saved_dict/TextCNN_witsky_13.ckpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THUCNews/saved_dict/TextCNN_witsky_9.ckpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_model_gpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_process/Data_Process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_process/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_process/ali_nlp_api_special.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_process/data_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_process/func_data_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_process/make_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/TextCNN.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/DPCNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/FastText.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TextCNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TextRCNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TextRNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TextRNN_Att.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_text_cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanxi_aqc_1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils_fasttext.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zg1ljfAvxyMsl9ZNr2ivTCwtrG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/THUCNews/data_witsky_10" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/THUCNews/data_witsky_10" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/THUCNews/data_witsky_6" />
+      <recent name="$PROJECT_DIR$/THUCNews/data_witsky_3" />
+      <recent name="$PROJECT_DIR$/THUCNews/data_witsky_2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_process" />
+      <recent name="$PROJECT_DIR$/check_model_1.py" />
+      <recent name="$PROJECT_DIR$/check_model_tmp.py" />
+      <recent name="$PROJECT_DIR$/THUCNews/data_witsky_3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.check_model">
+    <configuration name="check_model" type="PythonConfigurationType" factoryName="Python">
+      <module name="Text-Classification-pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="check_model_gpu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Text-Classification-pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_model_gpu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Text-Classification-pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Text-Classification-pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_one" type="PythonConfigurationType" factoryName="Python">
+      <module name="Text-Classification-pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_process/make_one.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_text_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Text-Classification-pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_text_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Text-Classification-pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.check_model" />
+      <item itemvalue="Python.make_one" />
+      <item itemvalue="Python.run_text_cnn" />
+      <item itemvalue="Python.utils" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.data_process" />
+      <item itemvalue="Python.check_model_gpu" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.data_process" />
+        <item itemvalue="Python.run_text_cnn" />
+        <item itemvalue="Python.check_model_gpu" />
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8211ba48-2ed2-41fd-b283-dd456841fb4f" name="Changes" comment="" />
+      <created>1634555070100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634555070100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/TextCNN.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
