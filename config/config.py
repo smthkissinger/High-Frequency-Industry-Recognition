@@ -17,8 +17,9 @@ root_path = os.path.split(os.path.realpath(__file__))[0]  # 获取该脚本的�
 class Config(object):
     def __init__(self):
         self.base_path = root_path.replace("/config", "")  # 项目的根目录
-        self.model_path = os.path.join(self.base_path, 'THUCNews/saved_dict')
-        self.data_path = os.path.join(self.base_path, 'THUCNews/data_witsky_11')
+        self.model_path = os.path.join(self.base_path, 'data_witsky/saved_dict')
+        self.data_path = os.path.join(self.base_path, 'data_witsky/data_witsky_11')
+        self.map_path = os.path.join(self.base_path, 'data_witsky/data_origin/word_map.json')
 
 
-config = Config()
+config_base = Config()

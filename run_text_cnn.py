@@ -8,7 +8,7 @@ from train_eval import train, init_network, test
 from utils import build_dataset, build_iterator, get_time_dif
 
 if __name__ == '__main__':
-    dataset = 'THUCNews'  # 数据集
+    dataset = 'data_witsky'  # 数据集
 
     # 搜狗新闻:embedding_SougouNews.npz, 腾讯:embedding_Tencent.npz, 随机初始化:random
     embedding = 'embedding_SougouNews.npz'

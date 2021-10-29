@@ -3,6 +3,6 @@
 /runs
 *.jpg
 # *.ckpt
-THUCNews/log/*
+data_witsky/log/*
 *.pyc
 *.bin

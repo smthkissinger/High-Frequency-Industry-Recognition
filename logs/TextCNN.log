@@ -1,22 +1,0 @@
-Loading data...
-False
-zhu
-Vocab size: 4762
-0it [00:00, ?it/s]7003it [00:00, 69960.18it/s]14402it [00:00, 72327.09it/s]21701it [00:00, 72523.50it/s]28954it [00:00, 71832.83it/s]36139it [00:00, 66116.28it/s]43729it [00:00, 69240.93it/s]50804it [00:00, 69712.46it/s]57821it [00:00, 69437.50it/s]65724it [00:00, 72363.46it/s]73943it [00:01, 75345.77it/s]81502it [00:01, 66822.52it/s]89408it [00:01, 70209.26it/s]96592it [00:01, 70280.86it/s]104020it [00:01, 71426.94it/s]112256it [00:01, 74606.11it/s]119788it [00:01, 73551.60it/s]127195it [00:01, 59888.63it/s]134421it [00:01, 63018.75it/s]141894it [00:02, 66127.01it/s]148997it [00:02, 67474.05it/s]157227it [00:02, 71654.59it/s]165449it [00:02, 74687.54it/s]173058it [00:02, 61134.57it/s]180000it [00:02, 68657.98it/s]
-0it [00:00, ?it/s]7348it [00:00, 73475.69it/s]10000it [00:00, 75262.64it/s]
-0it [00:00, ?it/s]7877it [00:00, 78765.38it/s]10000it [00:00, 77788.98it/s]
-Time usage: 0:00:03
-Traceback (most recent call last):
-  File "run.py", line 49, in <module>
-    model = x.Model(config).to(config.device)
-  File "/Users/zhuxinquan/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 612, in to
-    return self._apply(convert)
-  File "/Users/zhuxinquan/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 359, in _apply
-    module._apply(fn)
-  File "/Users/zhuxinquan/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 381, in _apply
-    param_applied = fn(param)
-  File "/Users/zhuxinquan/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 610, in convert
-    return t.to(device, dtype if t.is_floating_point() else None, non_blocking)
-  File "/Users/zhuxinquan/anaconda3/lib/python3.7/site-packages/torch/cuda/__init__.py", line 166, in _lazy_init
-    raise AssertionError("Torch not compiled with CUDA enabled")
-AssertionError: Torch not compiled with CUDA enabled

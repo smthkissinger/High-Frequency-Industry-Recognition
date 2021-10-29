@@ -107,7 +107,7 @@ class CheckModel(object):
         test_iter = DatasetIterater(one_code_list, 256, torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
 
         embedding = 'embedding_SougouNews.npz'
-        config_model = TextCNN.Config(dataset='THUCNews', embedding=embedding)
+        config_model = TextCNN.Config(dataset='data_witsky', embedding=embedding)
         model = TextCNN.Model(config_model).to('cpu')
         model.load_state_dict(
             torch.load(
@@ -137,7 +137,7 @@ class CheckModel(object):
 
     def get_label_pd(self):
         data_pd = pd.read_excel(
-            r"/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/THUCNews/data_witsky_11/all_test_11_7.xlsx",
+            r"/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/data_witsky/data_witsky_11/all_test_11_7.xlsx",
             keep_default_na=False)
         items_list = list(data_pd['chat_adj'])
         chat_adj_list = list(data_pd['chat_adj'])
@@ -153,7 +153,7 @@ class CheckModel(object):
         data_pd['item_sample'] = items_list
         data_pd['result_items_12'] = result_items_list
         data_pd.to_excel(
-            r"/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/THUCNews/data_witsky_11/all_test_12.xlsx",
+            r"/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/data_witsky/data_witsky_11/all_test_12.xlsx",
             index=False)
 
 

@@ -32,7 +32,7 @@ def func_filled():
             target_map[t_key] = t_value
 
     print(len(target_map))
-    base_pd = pd.read_excel(r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/THUCNews/data_witsky_2/all_test_2.xlsx',
+    base_pd = pd.read_excel(r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/data_witsky/data_witsky_2/all_test_2.xlsx',
                             keep_default_na=False)
     target_list = list(base_pd["items"])
     result_list = []
@@ -42,7 +42,7 @@ def func_filled():
         else:
             result_list.append("")
     base_pd['chat_adj'] = result_list
-    base_pd.to_excel(r"/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/THUCNews/data_witsky_2/all_test_3.xlsx",
+    base_pd.to_excel(r"/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/data_witsky/data_witsky_2/all_test_3.xlsx",
                      index=False)
 
 

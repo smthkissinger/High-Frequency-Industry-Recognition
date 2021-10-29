@@ -131,11 +131,11 @@ def get_time_dif(start_time):
 if __name__ == "__main__":
     '''提取预训练词向量'''
     # 下面的目录、文件名按需更改。
-    train_dir = "./THUCNews/data/train.txt"
-    vocab_dir = "./THUCNews/data/vocab.pkl"
-    pretrain_dir = "./THUCNews/data/sgns.sogou.char"
+    train_dir = "data_witsky/data/train.txt"
+    vocab_dir = "data_witsky/data/vocab.pkl"
+    pretrain_dir = "data_witsky/data/sgns.sogou.char"
     emb_dim = 300
-    filename_trimmed_dir = "./THUCNews/data/embedding_SougouNews"
+    filename_trimmed_dir = "data_witsky/data/embedding_SougouNews"
     if os.path.exists(vocab_dir):
         word_to_id = pkl.load(open(vocab_dir, 'rb'))
     else:

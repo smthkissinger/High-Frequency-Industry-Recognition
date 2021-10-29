@@ -14,7 +14,7 @@ import pandas as pd
 warnings.filterwarnings('ignore')  # 忽略一些警告,可以删除
 root_path = os.path.split(os.path.realpath(__file__))[0]  # 获取该脚本的地址,有效避免Linux和Windows文件路径格式不一致等问题,可以删除
 
-base_date_path = r'/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/THUCNews/data_witsky_11'
+base_date_path = r'/data_witsky/data_witsky_11'
 origin_pd_path = os.path.join(base_date_path, "all_test_7.xlsx")
 
 stop_word_map = {
@@ -112,8 +112,7 @@ def module_make_sample():
     fwrite_train = open(os.path.join(base_date_path, 'train.txt'), 'w')
     fwrite_dev = open(os.path.join(base_date_path, 'dev.txt'), 'w')
     fwrite_test = open(os.path.join(base_date_path, 'test.txt'), 'w')
-    origin_pd_path = r'/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/' \
-                     r'THUCNews/data_witsky_11/all_test_11_6.xlsx'
+    origin_pd_path = r'/data_witsky/data_witsky_11/all_test_11_6.xlsx'
     data_pd = pd.read_excel(origin_pd_path, keep_default_na=False)
 
     result_list = []
@@ -139,7 +138,7 @@ def module_make_sample():
     fwrite_dev.close()
     fwrite_test.close()
     data_pd.to_excel(
-        r'/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/THUCNews/data_witsky_11/all_test_11_7.xlsx',
+        r'/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/data_witsky/data_witsky_11/all_test_11_7.xlsx',
         index=False)
 
 
@@ -148,7 +147,7 @@ def model_normalization():
         模块函数:去重
     """
     base_pd = pd.read_excel(
-        r'/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/THUCNews/data_witsky_11/all_test_11_6.xlsx',
+        r'/Users/zhuxinquan/Desktop/project_witsky/High-Frequency-Industry-Recognition/data_witsky/data_witsky_11/all_test_11_6.xlsx',
         keep_default_na=False)
     target_pd = pd.read_excel(r'/Users/zhuxinquan/Desktop/已完成数据/数据整理/外卖—step1.xlsx',
                               keep_default_na=False)

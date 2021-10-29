@@ -111,7 +111,7 @@ class CheckModel(object):
         test_iter = DatasetIterater(one_code_list, 128, torch.device('cuda:1' if torch.cuda.is_available() else 'cpu'))
 
         embedding = 'embedding_SougouNews.npz'
-        config_model = TextCNN.Config(dataset='THUCNews', embedding=embedding)
+        config_model = TextCNN.Config(dataset='data_witsky', embedding=embedding)
         model = TextCNN.Model(config_model).to('cpu')
         model.load_state_dict(
             torch.load(

@@ -51,11 +51,11 @@ def build_vocab(file_path, tokenizer, max_size, min_freq):
     return vocab_dic
 
 
-vocab_path = r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/THUCNews/data_witsky/vocab.pkl'
-train_path = r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/THUCNews/data_witsky/train.txt'
+vocab_path = r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/data_witsky/data_witsky/vocab.pkl'
+train_path = r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/data_witsky/data_witsky/train.txt'
 pad_size = 32
-dev_path = r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/THUCNews/data_witsky/dev.txt'
-test_path = r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/THUCNews/data_witsky/test.txt'
+dev_path = r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/data_witsky/data_witsky/dev.txt'
+test_path = r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/data_witsky/data_witsky/test.txt'
 
 
 def build_dataset():
@@ -100,11 +100,11 @@ def build_dataset():
 def test(test_iter):
     # test
     embedding = 'embedding_SougouNews.npz'
-    config = TextCNN.Config(dataset='THUCNews', embedding=embedding)
+    config = TextCNN.Config(dataset='data_witsky', embedding=embedding)
     model = TextCNN.Model(config).to('cpu')
     model.load_state_dict(
         torch.load(
-            r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/THUCNews/saved_dict/TextCNN_witsky.ckpt',
+            r'/Users/zhuxinquan/Desktop/project_witsky/Text-Classification-pytorch/data_witsky/saved_dict/TextCNN_witsky.ckpt',
             map_location=lambda storage, loc: storage)
     )
     model.eval()
