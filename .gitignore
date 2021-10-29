@@ -1,8 +1,0 @@
-*.idea
-*.xml
-/runs
-*.jpg
-*.ckpt
-THUCNews/log/*
-*.pyc
-*.bin
