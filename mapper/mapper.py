@@ -5,6 +5,7 @@
 @time: 2021/10/29 16:40
 @desc: 
 """
+import json
 import os
 import warnings
 
@@ -17,13 +18,14 @@ root_path = os.path.split(os.path.realpath(__file__))[0]  # 获取该脚本的�
 class Mapping(object):
     def __init__(self):
         super(Mapping, self).__init__()
-
         self.word_mapping = {}
+        self.load_data()
 
     def load_data(self):
-        pass
+        fopen = open(config_base.map_path, 'r', encoding="utf-8")
+        self.word_mapping = json.load(fopen)
 
 
 if __name__ == '__main__':
     mapping = Mapping()
-
+    print(mapping.word_mapping)
